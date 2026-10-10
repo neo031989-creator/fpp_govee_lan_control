@@ -1,0 +1,1 @@
+In FPP 10, open Content Setup → Plugin Manager to install a published plugin via its pluginInfo.json URL. For local manual testing, copy the folder into /home/fpp/media/plugins and check the FPP plugin logs. FPP Commands can be used in playlists, command presets and scheduler entries.

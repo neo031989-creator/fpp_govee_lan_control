@@ -1,0 +1,11 @@
+{
+  "repoName": "fpp-govee-lan",
+  "name": "Govee LAN Control",
+  "author": "Community",
+  "description": "Lokale Steuerung kompatibler Govee-Lampen über UDP-LAN, inklusive UI und Playlist-Commands.",
+  "homeURL": "https://github.com/yourname/fpp-govee-lan",
+  "srcURL": "https://github.com/yourname/fpp-govee-lan.git",
+  "bugURL": "https://github.com/yourname/fpp-govee-lan/issues",
+  "allowUpdates": 1,
+  "versions": [{"minFPPVersion": "10.0", "maxFPPVersion": "0", "branch": "main", "sha": ""}]
+}

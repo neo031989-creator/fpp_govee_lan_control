@@ -1,0 +1,9 @@
+{
+  "commands": [
+    {"command":"Govee LAN - Power","description":"Schaltet eine Govee-Lampe ein oder aus","script":"scripts/govee_command.sh","args":[{"name":"IP-Adresse","description":"IPv4-Adresse der Lampe","required":true},{"name":"Aktion","description":"on oder off","required":true}]},
+    {"command":"Govee LAN - Brightness","description":"Setzt die Helligkeit (1-100)","script":"scripts/govee_command.sh","args":[{"name":"IP-Adresse","description":"IPv4-Adresse der Lampe","required":true},{"name":"Aktion","description":"brightness","required":true},{"name":"Prozent","description":"1 bis 100","required":true}]},
+    {"command":"Govee LAN - RGB Color","description":"Setzt eine RGB-Farbe","script":"scripts/govee_command.sh","args":[{"name":"IP-Adresse","description":"IPv4-Adresse der Lampe","required":true},{"name":"Aktion","description":"color","required":true},{"name":"Rot","description":"0 bis 255","required":true},{"name":"Grün","description":"0 bis 255","required":true},{"name":"Blau","description":"0 bis 255","required":true}]},
+    {"command":"Govee LAN - Color Effect","description":"Startet einen softwaregenerierten Farbeffekt","script":"scripts/govee_command.sh","args":[{"name":"IP-Adresse","description":"IPv4-Adresse der Lampe","required":true},{"name":"Aktion","description":"effect","required":true},{"name":"Effekt","description":"rainbow, party, fire oder candle","required":true},{"name":"Minuten","description":"1 bis 60","required":false}]},
+    {"command":"Govee LAN - Stop Effect","description":"Stoppt einen laufenden Farbeffekt","script":"scripts/govee_command.sh","args":[{"name":"IP-Adresse","description":"IPv4-Adresse der Lampe","required":true},{"name":"Aktion","description":"stop-effect","required":true}]}
+  ]
+}
